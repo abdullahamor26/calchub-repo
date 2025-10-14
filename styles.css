@@ -1,0 +1,11 @@
+body { font-family: 'Inter', sans-serif; background: #F5F5F5; color: #4A4A4A; margin: 0; line-height: 1.6; }
+h1, h2, h3 { font-family: 'Playfair Display', serif; color: #001F3F; }
+.premium-cta { background: #FFD700; color: #001F3F; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: box-shadow 0.3s; display: inline-block; }
+.premium-cta:hover { box-shadow: 0 4px 8px rgba(0,31,63,0.2); }
+.category-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+.fade-in { opacity: 0; transition: opacity 0.5s ease-in; }
+.fade-in.visible { opacity: 1; }
+.card { border: 1px solid #E0E0E0; padding: 20px; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); background: white; text-align: center; }
+.ad-placeholder { background: #F0F0F0; padding: 10px; text-align: center; margin: 20px 0; border: 1px dashed #CCC; color: #666; }
+footer { background: #001F3F; color: white; padding: 20px; text-align: center; font-size: 14px; }
+.markdown-body { font-family: 'Inter', sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
